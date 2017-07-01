@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "Simple typeahead and typo correction example",
   "scripts": {
-    "start": "npm run server"
+    "start": "npm run server",
+    "server": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brood915/ngBoilerplate.git"
+    "url": "https://github.com/brood915/search-engine.git"
   },
   "author": "Kevin Jang",
   "license": "MIT",
-  "homepage": "https://github.com/brood915/ngBoilerplate",
+  "homepage": "https://github.com/brood915/search-engine",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.4",
     "angular": "^1.5.0",
+    "angular-ui-bootstrap": "^2.5.0",
     "bootstrap": "^3.3.7"
   },
   "devDependencies": {

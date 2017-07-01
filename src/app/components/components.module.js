@@ -1,6 +1,6 @@
 import angular from 'angular';
-import { HomeModule } from './home/home.module';
+import { SearchModule } from './search/search.module';
 
 
-export const ComponentsModule = angular.module('componentsModule', [HomeModule])
+export const ComponentsModule = angular.module('componentsModule', [SearchModule])
   .name;
