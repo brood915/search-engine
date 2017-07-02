@@ -2,11 +2,14 @@
 
 Simple Search Engine
 * Angular-UI Bootstrap's Typeahead Directive
-* Simple Typo Correction Algorithms
-
 
 
 ### Quick start
+
+Live Demo: 
+https://brood915.github.io/search-engine
+
+or
 
 ```bash
 # clone our repo
@@ -21,6 +24,8 @@ $ npm install
 # start the server
 $ npm start
 ```
+Go to [http://localhost:8080](http://localhost:8080) in your browser.
 
-go to [http://localhost:8080](http://localhost:8080) in your browser.
+
+
 
